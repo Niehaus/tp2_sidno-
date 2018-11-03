@@ -1,7 +1,7 @@
 #include "Funcoes.h"
 #include <stdlib.h>
 #include <time.h>
-
+/*
 void ordenaQuaseP(Pequeno *vet, int tam, int prcnt){
 	int i, j, sorte,semente;
 	Pequeno troca;
@@ -29,6 +29,7 @@ void ordenaQuaseG(Grande *vet, int tam, int prcnt){
 			vet[j].chave = troca.chave;
 		}
 	}
+*/
 
 
 }

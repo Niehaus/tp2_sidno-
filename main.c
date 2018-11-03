@@ -19,9 +19,15 @@ int main(int argc, char const *argv[]) {
     printf("Preencher registros\n");
     for (int i = 0; i < N; i++) {
       reg[i].chave = rand() % 100;
-      printf("%d\n",reg[i].chave);
-      reg[i].cadeia
+      printf("reg %d\n",reg[i].chave);
     }
+    for (int i = 0; i < N; i++) {
+      for (int j = 0; j < 10; j++) {
+        reg[i].cadeia[j][0] = 'a';
+        printf("reg2 %c\n",reg[i].cadeia[j][0]);
+      }
+    }
+
 
   return 0;
 }
