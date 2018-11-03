@@ -1,8 +1,11 @@
 #include "registro.h" // chamando as informação que esta em registro.h  que e a nossa tad 
 
 int main(int argc, char const *argv[]) {
+int i,j,x,y,z; //vareaveis
+//----------------------------------------------------------------------------------------------------------
 
-
+//preenche os regiostro: 
+  
     int N,j,k; // N = tamanho do vetor a ser ordenado
     printf("-->");
     scanf("%d",&N);
@@ -30,7 +33,14 @@ int main(int argc, char const *argv[]) {
         } 
         printf("\n");    
     }
-  printf("ponteiro reg",reg);
+  printf("%d\n",reg);
   free(reg);
+  
+//---------------------------------------------------------------------------------------------------
+  //loop para a função quick
+  while(x=0, x <=5; x++){
+      //chama função quick
+      //armazena a media no arquivo 
+    }
   return 0;
 }
